@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    width: 1512px;
+    height: 55px;
+    padding: 16px 96px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(22, 83, 94, 0.50) 29.69%, #000 56.25%);
+}
+.section-hero{
+    display: flex;
+    width: 1512px;
+    padding: 80px 97px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: rgba(0, 0, 0, 0.00);
+}
+.header-logo{
+    width: 314px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.foooter{
+    display: flex;
+    width: 1512px;
+    padding: 30px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(180deg, #000 54.48%, #16535E 100%);
+}
